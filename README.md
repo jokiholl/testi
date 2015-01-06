@@ -1,6 +1,6 @@
 testi
 =====
-var SERVER_URL = "http://data.fmi.fi/fmi-apikey/insert-your-apikey-here/wfs";
+var SERVER_URL = "http://data.fmi.fi/fmi-apikey/86661e27-1174-4b6f-86aa-e2b3ae46fe54/wfs";
 var STORED_QUERY_OBSERVATION = "fmi::observations::weather::multipointcoverage";
 var connection = new fi.fmi.metoclient.metolib.WfsConnection();
 if (connection.connect(SERVER_URL, STORED_QUERY_OBSERVATION)) {
